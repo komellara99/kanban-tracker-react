@@ -1,0 +1,54 @@
+.container {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px grey;
+    padding: 8px;
+    color: #000;
+    margin-bottom: 8px;
+    margin: 10px;
+    min-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word; /* Wrap long words onto the next line */
+    overflow-wrap: break-word; /* Alternative property for word-wrap */
+    overflow: hidden;
+}
+.taskid{
+    display: "flex";
+    justify-content: "start";
+    padding: 2;
+}
+.tasktitlec {
+    display: flex;
+    justify-content: start;
+    padding: 2;
+    flex-wrap: wrap;
+    flex-direction: column;
+    word-wrap: normal;
+    margin: 2px;
+    width: 50%;
+    word-wrap: break-word; /* Wrap long words onto the next line */
+    overflow-wrap: break-word; /* Alternative property for word-wrap */
+    overflow: hidden;
+    text-align: left;
+ }
+ .x {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+ }
+
+.icons {
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+}
+.del-button {
+    width: 70px;
+    align-self: center;
+}

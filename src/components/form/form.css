@@ -1,0 +1,19 @@
+.form-cont {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    
+}
+.form {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.form-items {
+    margin: 10px;
+}
